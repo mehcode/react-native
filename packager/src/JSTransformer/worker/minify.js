@@ -18,6 +18,7 @@ function minify(filename: string, code: string, sourceMap: ?string) {
     fromString: true,
     inSourceMap: sourceMap,
     outSourceMap: true,
+    mange: false,
     output: {
       ascii_only: true,
       screw_ie8: true,
